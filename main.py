@@ -1,9 +1,10 @@
+import random
 
-num1 = list(map(int, input().split()))
-num2 = list(map(int, input().split()))
+lt1 = list(map(int, input().split()))
+lt2 = list(map(int, input().split()))
+   
+print ( "list 1: " + str (lt1))  
+print ( "list 2: " + str (lt2))  
 
-# ******************************
-# Make your Code
-# ******************************
-
-# print (num3) 
+lt3 = lt1+lt2
+print ( "list 3: " + str (lt3)) 
